@@ -1,0 +1,10 @@
+2024-12-03 00:00:19,264 - Thread-2 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:02:11,743 - Thread-5 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:05:46,538 - Thread-8 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:13:42,194 - Thread-9 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:19:13,514 - Thread-10 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:29:19,526 - Thread-2 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:38:54,939 - Thread-3 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:45:54,847 - Thread-4 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 00:54:14,297 - Thread-5 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully
+2024-12-03 15:25:00,274 - Thread-2 (process_request_thread) - MainProcess - INFO - Product with id 2 found successfully

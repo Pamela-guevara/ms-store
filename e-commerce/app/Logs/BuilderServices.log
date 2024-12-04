@@ -1,0 +1,47 @@
+2024-12-02 22:41:49,041 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1f3a0828690 state=finished raised AttributeError>)])
+2024-12-02 22:44:32,085 - Thread-1 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32c8d2290 state=finished raised AttributeError>)])
+2024-12-02 22:45:03,949 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32ccdab50 state=finished raised AttributeError>)])
+2024-12-02 22:46:29,772 - Thread-3 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32ccf8d50 state=finished raised AttributeError>)])
+2024-12-02 22:47:39,141 - Thread-4 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32ccfaed0 state=finished raised AttributeError>)])
+2024-12-02 22:56:31,829 - Thread-5 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32cd0cfd0 state=finished raised AttributeError>)])
+2024-12-02 22:57:54,798 - Thread-6 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32ccf9e50 state=finished raised AttributeError>)])
+2024-12-02 22:59:04,313 - Thread-7 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32ccdb7d0 state=finished raised AttributeError>)])
+2024-12-02 22:59:51,696 - Thread-8 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32ccda850 state=finished raised AttributeError>)])
+2024-12-02 23:00:09,477 - Thread-9 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32cd0e610 state=finished raised AttributeError>)])
+2024-12-02 23:01:07,455 - Thread-10 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32cd0ce50 state=finished raised AttributeError>)])
+2024-12-02 23:01:45,378 - Thread-11 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1e32cd0cb50 state=finished raised AttributeError>)])
+2024-12-02 23:04:25,483 - Thread-1 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x16173389e50 state=finished raised AttributeError>)])
+2024-12-02 23:05:43,526 - Thread-1 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x1fa68d0d9d0 state=finished raised AttributeError>)])
+2024-12-02 23:08:41,004 - Thread-1 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x15c04036050 state=finished raised AttributeError>)])
+2024-12-02 23:11:25,165 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x15c03218c90 state=finished raised AttributeError>)])
+2024-12-02 23:13:04,986 - Thread-1 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'product'"), [RetryError(<Future at 0x17bc41d0810 state=finished raised AttributeError>)])
+2024-12-02 23:17:39,719 - Thread-1 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'id_product'"), [RetryError(<Future at 0x19e6b0a9950 state=finished raised AttributeError>)])
+2024-12-02 23:20:22,948 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'id_product'"), [RetryError(<Future at 0x23ac17930d0 state=finished raised AttributeError>)])
+2024-12-02 23:22:00,120 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'id_product'"), [RetryError(<Future at 0x27f61ee2410 state=finished raised AttributeError>)])
+2024-12-02 23:22:20,996 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'id_product'"), [RetryError(<Future at 0x28807227f10 state=finished raised AttributeError>)])
+2024-12-02 23:23:45,465 - Thread-2 (process_request_thread) - MainProcess - ERROR - (AttributeError("'dict' object has no attribute 'shipping_address'"), [RetryError(<Future at 0x1b1ed5f3d90 state=finished raised AttributeError>)])
+2024-12-02 23:37:53,294 - Thread-2 (process_request_thread) - MainProcess - ERROR - (RetryError(<Future at 0x1a359897850 state=finished raised AttributeError>), [RetryError(<Future at 0x1a3598af2d0 state=finished raised AttributeError>)])
+2024-12-03 20:23:32,814 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 20:29:25,784 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 20:30:48,027 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 20:35:57,196 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:05:19,617 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:12:31,586 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:21:17,185 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:25:51,809 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:36:24,415 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:40:47,791 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:42:42,302 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:47:27,218 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 21:58:44,815 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:03:14,006 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:31:23,060 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:32:37,580 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:46:29,849 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:49:00,407 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:49:55,779 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 22:54:43,690 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 23:01:21,830 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 23:01:34,189 - Thread-3 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-03 23:01:48,725 - Thread-4 (process_request_thread) - MainProcess - INFO - Builder executed succefully
+2024-12-04 12:01:00,085 - Thread-2 (process_request_thread) - MainProcess - INFO - Builder executed succefully

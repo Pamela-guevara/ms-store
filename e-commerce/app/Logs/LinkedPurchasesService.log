@@ -1,0 +1,149 @@
+2024-12-03 00:38:56,989 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:05:35,927 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:12:50,725 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:14:56,537 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:20:48,285 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:26:59,802 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:34:36,231 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:38:56,318 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:41:37,768 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:42:46,609 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 16:56:37,085 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 17:58:20,342 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 18:43:11,488 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 18:52:48,054 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 19:01:19,315 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 19:01:52,139 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 19:12:02,023 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 5
+{'id_purchase': 5, 'id_product': 4, 'purchase_date': '2024-12-03T19:11:56.428872', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:23:07,857 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 6
+{'id_purchase': 6, 'id_product': 4, 'purchase_date': '2024-12-03T19:23:01.800063', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:25:15,932 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 7
+{'id_purchase': 7, 'id_product': 4, 'purchase_date': '2024-12-03T19:25:12.038547', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:33:26,735 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 8
+{'id_purchase': 8, 'id_product': 4, 'purchase_date': '2024-12-03T19:33:22.663539', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:34:35,447 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 9
+{'id_purchase': 9, 'id_product': 4, 'purchase_date': '2024-12-03T19:34:30.675344', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:37:13,719 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 10
+{'id_purchase': 10, 'id_product': 4, 'purchase_date': '2024-12-03T19:37:08.716972', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:42:36,584 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 11
+{'id_purchase': 11, 'id_product': 4, 'purchase_date': '2024-12-03T19:42:13.705626', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:44:55,266 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 12
+{'id_purchase': 12, 'id_product': 4, 'purchase_date': '2024-12-03T19:44:49.837436', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:47:51,252 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 13
+{'id_purchase': 13, 'id_product': 4, 'purchase_date': '2024-12-03T19:47:43.189754', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:49:42,001 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 14
+{'id_purchase': 14, 'id_product': 4, 'purchase_date': '2024-12-03T19:49:33.052087', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:51:44,199 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 15
+{'id_purchase': 15, 'id_product': 4, 'purchase_date': '2024-12-03T19:51:39.029427', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:53:17,517 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 16
+{'id_purchase': 16, 'id_product': 4, 'purchase_date': '2024-12-03T19:53:08.311654', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:56:30,192 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 17
+{'id_purchase': 17, 'id_product': 4, 'purchase_date': '2024-12-03T19:56:18.790561', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:57:13,564 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 18
+{'id_purchase': 18, 'id_product': 4, 'purchase_date': '2024-12-03T19:57:04.454268', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 19:59:22,548 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 19
+{'id_purchase': 19, 'id_product': 4, 'purchase_date': '2024-12-03T19:59:11.733859', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:00:49,715 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 20
+{'id_purchase': 20, 'id_product': 4, 'purchase_date': '2024-12-03T20:00:42.340584', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:06:43,583 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 21
+{'id_purchase': 21, 'id_product': 4, 'purchase_date': '2024-12-03T20:06:32.778377', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:10:18,636 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 22
+{'id_purchase': 22, 'id_product': 4, 'purchase_date': '2024-12-03T20:10:14.616872', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:14:50,963 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 23
+{'id_purchase': 23, 'id_product': 4, 'purchase_date': '2024-12-03T20:14:46.577409', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:16:45,519 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 24
+{'id_purchase': 24, 'id_product': 1, 'purchase_date': '2024-12-03T20:16:40.593920', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:23:26,661 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 25
+{'id_purchase': 25, 'id_product': 1, 'purchase_date': '2024-12-03T20:23:12.260064', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:29:19,637 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 26
+{'id_purchase': 26, 'id_product': 1, 'purchase_date': '2024-12-03T20:29:10.129150', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:30:41,881 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 27
+{'id_purchase': 27, 'id_product': 1, 'purchase_date': '2024-12-03T20:30:36.106285', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:30:55,380 - Thread-3 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 20:33:35,755 - Thread-4 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 20:35:50,948 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 28
+{'id_purchase': 28, 'id_product': 1, 'purchase_date': '2024-12-03T20:34:10.168726', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:36:50,864 - Thread-3 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 20:48:06,054 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 29
+{'id_purchase': 29, 'id_product': 2, 'purchase_date': '2024-12-03T20:47:53.837689', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 20:51:16,474 - Thread-3 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 21:05:13,470 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 30
+{'id_purchase': 30, 'id_product': 1, 'purchase_date': '2024-12-03T21:00:05.498504', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:05:24,999 - Thread-3 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 21:12:25,467 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 31
+{'id_purchase': 31, 'id_product': 1, 'purchase_date': '2024-12-03T21:12:19.799444', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:12:42,055 - Thread-3 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 21:14:26,069 - Thread-4 (process_request_thread) - MainProcess - ERROR - Error in purchase-ms trying to buy
+2024-12-03 21:21:11,045 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:21:02.518819
+{'id_product': 4, 'purchase_date': '2024-12-03T21:21:02.518819', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:21:31,272 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:21:02.518819
+{'id_product': 4, 'purchase_date': '2024-12-03T21:21:02.518819', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:25:45,672 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:25:42.233044
+{'id_product': 4, 'purchase_date': '2024-12-03T21:25:42.233044', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:26:13,192 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:25:42.233044
+{'id_product': 4, 'purchase_date': '2024-12-03T21:25:42.233044', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:29:47,170 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:25:42.233044
+{'id_product': 4, 'purchase_date': '2024-12-03T21:25:42.233044', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:32:45,283 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:32:39.176214
+{'id_product': 4, 'purchase_date': '2024-12-03T21:32:39.176214', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:33:16,564 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:32:39.176214
+{'id_product': 4, 'purchase_date': '2024-12-03T21:32:39.176214', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:36:18,234 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:36:13.702496
+{'id_product': 4, 'purchase_date': '2024-12-03T21:36:13.702496', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:36:32,897 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:36:13.702496
+{'id_product': 4, 'purchase_date': '2024-12-03T21:36:13.702496', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:40:41,411 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:39:26.343297
+{'id_product': 4, 'purchase_date': '2024-12-03T21:39:26.343297', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:40:53,407 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:39:26.343297
+{'id_product': 4, 'purchase_date': '2024-12-03T21:39:26.343297', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:42:35,980 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:42:27.486130
+{'id_product': 4, 'purchase_date': '2024-12-03T21:42:27.486130', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:42:48,274 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:42:27.486130
+{'id_product': 4, 'purchase_date': '2024-12-03T21:42:27.486130', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:47:21,052 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:47:16.371919
+{'id_product': 4, 'purchase_date': '2024-12-03T21:47:16.371919', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:48:26,266 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:47:16.371919
+{'id_product': 3, 'purchase_date': '2024-12-03T21:47:16.371919', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:58:38,506 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:58:31.878699
+{'id_product': 3, 'purchase_date': '2024-12-03T21:58:31.878699', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 21:58:52,105 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T21:58:31.878699
+{'id_product': 3, 'purchase_date': '2024-12-03T21:58:31.878699', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:03:07,740 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:00:27.711940
+{'id_product': 3, 'purchase_date': '2024-12-03T22:00:27.711940', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:03:32,822 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:00:27.711940
+{'id_product': 3, 'purchase_date': '2024-12-03T22:00:27.711940', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:31:16,625 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:29:22.695341
+{'id_product': 3, 'purchase_date': '2024-12-03T22:29:22.695341', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:32:31,415 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:32:26.258805
+{'id_product': 3, 'purchase_date': '2024-12-03T22:32:26.258805', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:46:23,712 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:46:18.549539
+{'id_product': 3, 'purchase_date': '2024-12-03T22:46:18.549539', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:46:37,890 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:46:18.549539
+{'id_product': 3, 'purchase_date': '2024-12-03T22:46:18.549539', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:48:54,229 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:48:43.314865
+{'id_product': 3, 'purchase_date': '2024-12-03T22:48:43.314865', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:49:09,579 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:48:43.314865
+{'id_product': 3, 'purchase_date': '2024-12-03T22:48:43.314865', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:49:49,637 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:49:43.217095
+{'id_product': 3, 'purchase_date': '2024-12-03T22:49:43.217095', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:50:01,227 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:49:43.217095
+{'id_product': 3, 'purchase_date': '2024-12-03T22:49:43.217095', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:52:18,778 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:49:43.217095
+{'id_product': 3, 'purchase_date': '2024-12-03T22:49:43.217095', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:53:20,463 - Thread-5 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:49:43.217095
+{'id_product': 3, 'purchase_date': '2024-12-03T22:49:43.217095', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:54:37,505 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:54:33.728077
+{'id_product': 3, 'purchase_date': '2024-12-03T22:54:33.728077', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:54:53,107 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:54:33.728077
+{'id_product': 3, 'purchase_date': '2024-12-03T22:54:33.728077', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 22:56:29,719 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T22:54:33.728077
+{'id_product': 1, 'purchase_date': '2024-12-03T22:54:33.728077', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 23:01:15,512 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T23:01:08.937861
+{'id_product': 1, 'purchase_date': '2024-12-03T23:01:08.937861', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 23:01:28,035 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T23:01:08.937861
+{'id_product': 1, 'purchase_date': '2024-12-03T23:01:08.937861', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-03 23:01:42,579 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T23:01:08.937861
+{'id_product': 1, 'purchase_date': '2024-12-03T23:01:08.937861', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 
+2024-12-04 12:00:53,901 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase succefully: 2024-12-03T23:03:35.445056
+{'id_product': 1, 'purchase_date': '2024-12-03T23:03:35.445056', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False} 

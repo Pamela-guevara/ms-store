@@ -1,0 +1,91 @@
+2024-12-03 19:42:41,110 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:44:59,387 - Thread-3 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:47:55,338 - Thread-4 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:49:46,109 - Thread-5 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:51:48,287 - Thread-6 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:53:21,599 - Thread-7 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:56:34,294 - Thread-8 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:57:17,671 - Thread-9 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 19:59:26,649 - Thread-10 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:00:53,821 - Thread-12 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:06:47,655 - Thread-14 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:10:22,867 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:10:24,902 - Thread-3 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 20:10:24,922 - Thread-3 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 20:14:55,057 - Thread-4 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:16:49,618 - Thread-5 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:16:51,683 - Thread-6 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 20:16:51,689 - Thread-6 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 20:23:30,748 - Thread-7 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:23:32,798 - Thread-8 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 20:23:32,808 - Thread-8 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 20:29:23,717 - Thread-9 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:29:25,769 - Thread-10 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 20:29:25,784 - Thread-10 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 20:30:45,962 - Thread-11 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:30:48,012 - Thread-12 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 20:30:48,023 - Thread-12 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 20:35:55,131 - Thread-13 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 20:35:57,181 - Thread-14 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 20:35:57,191 - Thread-14 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 20:48:10,180 - Thread-15 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:05:17,552 - Thread-16 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:05:19,600 - Thread-17 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 21:05:19,616 - Thread-17 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 21:12:29,530 - Thread-18 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:12:31,570 - Thread-19 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 21:12:31,570 - Thread-19 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 21:21:15,138 - Thread-20 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:21:17,170 - Thread-21 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 21:21:17,185 - Thread-21 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 21:25:49,744 - Thread-22 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:25:51,797 - Thread-23 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 21:25:51,807 - Thread-23 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 21:36:22,334 - Thread-24 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:36:24,398 - Thread-25 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 21:36:24,413 - Thread-25 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 21:40:45,735 - Thread-26 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:40:47,778 - Thread-27 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 21:40:47,786 - Thread-27 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 21:42:40,235 - Thread-28 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:42:42,286 - Thread-29 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 21:42:42,286 - Thread-29 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 21:47:25,150 - Thread-30 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:47:27,202 - Thread-31 (process_request_thread) - MainProcess - INFO - Stock with id 4 found successfully
+2024-12-03 21:47:27,202 - Thread-31 (process_request_thread) - MainProcess - INFO - Stock 4 updated successfully
+2024-12-03 21:58:42,769 - Thread-32 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 21:58:44,799 - Thread-33 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 21:58:44,815 - Thread-33 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:03:11,941 - Thread-34 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:03:13,992 - Thread-35 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:03:13,992 - Thread-35 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:31:20,999 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:31:23,043 - Thread-3 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:31:23,060 - Thread-3 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:32:35,510 - Thread-4 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:32:37,563 - Thread-5 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:32:37,575 - Thread-5 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:46:27,791 - Thread-6 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:46:29,828 - Thread-7 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:46:29,844 - Thread-7 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:48:58,339 - Thread-8 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:49:00,398 - Thread-9 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:49:00,407 - Thread-9 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:49:53,728 - Thread-10 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:49:55,767 - Thread-11 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:49:55,775 - Thread-11 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 22:54:41,607 - Thread-12 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 22:54:43,680 - Thread-13 (process_request_thread) - MainProcess - INFO - Stock with id 2 found successfully
+2024-12-03 22:54:43,681 - Thread-13 (process_request_thread) - MainProcess - INFO - Stock 2 updated successfully
+2024-12-03 23:01:19,763 - Thread-14 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 23:01:21,816 - Thread-15 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 23:01:21,821 - Thread-15 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 23:01:32,145 - Thread-16 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 23:01:34,178 - Thread-17 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 23:01:34,187 - Thread-17 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-03 23:01:46,678 - Thread-18 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-03 23:01:48,710 - Thread-19 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-03 23:01:48,725 - Thread-19 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully
+2024-12-04 12:00:58,003 - Thread-20 (process_request_thread) - MainProcess - INFO - Stock where id_product <built-in function id> found succefully
+2024-12-04 12:01:00,069 - Thread-21 (process_request_thread) - MainProcess - INFO - Stock with id 3 found successfully
+2024-12-04 12:01:00,069 - Thread-21 (process_request_thread) - MainProcess - INFO - Stock 3 updated successfully

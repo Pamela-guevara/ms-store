@@ -1,0 +1,57 @@
+2024-12-03 19:42:41,127 - Thread-2 (process_request_thread) - MainProcess - ERROR - There is not enough stock for product 4
+2024-12-03 19:44:59,390 - Thread-2 (process_request_thread) - MainProcess - ERROR - There is not enough stock for product 4
+2024-12-03 19:47:55,345 - Thread-2 (process_request_thread) - MainProcess - ERROR - There is not enough stock for product 4
+2024-12-03 19:51:48,302 - Thread-2 (process_request_thread) - MainProcess - ERROR - There is not enough stock for product 4
+2024-12-03 19:59:28,774 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in stock-ms
+2024-12-03 20:00:55,873 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in stock-ms
+2024-12-03 20:06:49,712 - Thread-2 (process_request_thread) - MainProcess - ERROR - Error in stock-ms
+2024-12-03 20:14:55,057 - Thread-2 (process_request_thread) - MainProcess - ERROR - There is not enough stock for product 4
+2024-12-03 20:23:32,814 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T20:16:40.609562', 'quantity': 18.0, 'in_out': 2, 'active': True}
+2024-12-03 20:29:25,784 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T20:23:12.260064', 'quantity': 17.0, 'in_out': 2, 'active': True}
+2024-12-03 20:30:48,027 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T20:29:10.129150', 'quantity': 16.0, 'in_out': 2, 'active': True}
+2024-12-03 20:35:57,196 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T20:30:36.106285', 'quantity': 15.0, 'in_out': 2, 'active': True}
+2024-12-03 20:48:10,190 - Thread-2 (process_request_thread) - MainProcess - ERROR - There is not enough stock for product 2
+2024-12-03 21:05:19,617 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T20:34:10.168726', 'quantity': 14.0, 'in_out': 2, 'active': True}
+2024-12-03 21:12:31,586 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T21:00:05.498504', 'quantity': 12.0, 'in_out': 2, 'active': True}
+2024-12-03 21:21:17,185 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 4
+{'id_stock': 4, 'id_product': 4, 'transaction_date': '2024-12-03T20:10:14.616872', 'quantity': 6.0, 'in_out': 2, 'active': True}
+2024-12-03 21:25:51,809 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 4
+{'id_stock': 4, 'id_product': 4, 'transaction_date': '2024-12-03T21:21:02.519822', 'quantity': 5.0, 'in_out': 2, 'active': True}
+2024-12-03 21:36:24,415 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 4
+{'id_stock': 4, 'id_product': 4, 'transaction_date': '2024-12-03T21:25:42.233044', 'quantity': 4.0, 'in_out': 2, 'active': True}
+2024-12-03 21:40:47,791 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 4
+{'id_stock': 4, 'id_product': 4, 'transaction_date': '2024-12-03T21:36:13.702496', 'quantity': 3.0, 'in_out': 2, 'active': True}
+2024-12-03 21:42:42,302 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 4
+{'id_stock': 4, 'id_product': 4, 'transaction_date': '2024-12-03T21:39:26.343297', 'quantity': 2.0, 'in_out': 2, 'active': True}
+2024-12-03 21:47:27,218 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 4
+{'id_stock': 4, 'id_product': 4, 'transaction_date': '2024-12-03T21:42:27.486130', 'quantity': 1.0, 'in_out': 2, 'active': True}
+2024-12-03 21:58:44,815 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-02T19:15:20.051018', 'quantity': 10.0, 'in_out': 1, 'active': True}
+2024-12-03 22:03:14,006 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T21:58:31.878699', 'quantity': 9.0, 'in_out': 2, 'active': True}
+2024-12-03 22:31:23,060 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T22:00:27.711940', 'quantity': 8.0, 'in_out': 2, 'active': True}
+2024-12-03 22:32:37,579 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T22:29:22.695341', 'quantity': 7.0, 'in_out': 2, 'active': True}
+2024-12-03 22:46:29,844 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T22:32:26.258805', 'quantity': 6.0, 'in_out': 2, 'active': True}
+2024-12-03 22:49:00,407 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T22:46:18.549539', 'quantity': 5.0, 'in_out': 2, 'active': True}
+2024-12-03 22:49:55,779 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T22:48:43.315694', 'quantity': 4.0, 'in_out': 2, 'active': True}
+2024-12-03 22:54:43,690 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 2
+{'id_stock': 2, 'id_product': 3, 'transaction_date': '2024-12-03T22:49:43.217095', 'quantity': 3.0, 'in_out': 2, 'active': True}
+2024-12-03 23:01:21,829 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T21:12:19.802141', 'quantity': 10.0, 'in_out': 2, 'active': True}
+2024-12-03 23:01:34,189 - Thread-3 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T23:01:08.937861', 'quantity': 9.0, 'in_out': 2, 'active': True}
+2024-12-03 23:01:48,725 - Thread-4 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T23:01:08.937861', 'quantity': 8.0, 'in_out': 2, 'active': True}
+2024-12-04 12:01:00,085 - Thread-2 (process_request_thread) - MainProcess - INFO - Stock: 3
+{'id_stock': 3, 'id_product': 1, 'transaction_date': '2024-12-03T23:01:08.937861', 'quantity': 7.0, 'in_out': 2, 'active': True}

@@ -1,0 +1,186 @@
+2024-12-03 19:37:15,940 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 1 added successfully
+2024-12-03 19:42:38,644 - Thread-3 (process_request_thread) - MainProcess - INFO - Payment 2 added successfully
+2024-12-03 19:44:57,335 - Thread-4 (process_request_thread) - MainProcess - INFO - Payment 3 added successfully
+2024-12-03 19:47:53,293 - Thread-5 (process_request_thread) - MainProcess - INFO - Payment 4 added successfully
+2024-12-03 19:49:44,055 - Thread-6 (process_request_thread) - MainProcess - INFO - Payment 5 added successfully
+2024-12-03 19:51:46,247 - Thread-7 (process_request_thread) - MainProcess - INFO - Payment 6 added successfully
+2024-12-03 19:53:19,558 - Thread-8 (process_request_thread) - MainProcess - INFO - Payment 7 added successfully
+2024-12-03 19:56:32,239 - Thread-9 (process_request_thread) - MainProcess - INFO - Payment 8 added successfully
+2024-12-03 19:57:15,627 - Thread-10 (process_request_thread) - MainProcess - INFO - Payment 9 added successfully
+2024-12-03 19:59:24,582 - Thread-11 (process_request_thread) - MainProcess - INFO - Payment 10 added successfully
+2024-12-03 20:00:51,766 - Thread-12 (process_request_thread) - MainProcess - INFO - Payment 11 added successfully
+2024-12-03 20:06:45,621 - Thread-13 (process_request_thread) - MainProcess - INFO - Payment 12 added successfully
+2024-12-03 20:10:20,683 - Thread-14 (process_request_thread) - MainProcess - INFO - Payment 13 added successfully
+2024-12-03 20:14:53,021 - Thread-15 (process_request_thread) - MainProcess - INFO - Payment 14 added successfully
+2024-12-03 20:16:47,579 - Thread-16 (process_request_thread) - MainProcess - INFO - Payment 15 added successfully
+2024-12-03 20:23:28,697 - Thread-17 (process_request_thread) - MainProcess - INFO - Payment 16 added successfully
+2024-12-03 20:29:21,679 - Thread-18 (process_request_thread) - MainProcess - INFO - Payment 17 added successfully
+2024-12-03 20:30:43,914 - Thread-19 (process_request_thread) - MainProcess - INFO - Payment 18 added successfully
+2024-12-03 20:35:53,064 - Thread-20 (process_request_thread) - MainProcess - INFO - Payment 19 added successfully
+2024-12-03 20:48:08,125 - Thread-21 (process_request_thread) - MainProcess - INFO - Payment 20 added successfully
+2024-12-03 21:05:15,517 - Thread-22 (process_request_thread) - MainProcess - INFO - Payment 21 added successfully
+2024-12-03 21:12:27,499 - Thread-23 (process_request_thread) - MainProcess - INFO - Payment 22 added successfully
+2024-12-03 21:21:13,110 - Thread-24 (process_request_thread) - MainProcess - INFO - Payment 23 added successfully
+2024-12-03 21:25:47,710 - Thread-25 (process_request_thread) - MainProcess - INFO - Payment 24 added successfully
+2024-12-03 21:26:15,275 - Thread-26 (process_request_thread) - MainProcess - ERROR - Payment 24 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «payments_pkey»
+DETAIL:  Ya existe la llave (id_payment)=(24).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 24, 'id_product': 4, 'amount': 15.99, 'payment_mode': 'credit card', 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:26:15,275 - Thread-26 (process_request_thread) - MainProcess - ERROR - Payment 24 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «payments_pkey»
+DETAIL:  Ya existe la llave (id_payment)=(24).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 24, 'id_product': 4, 'amount': 15.99, 'payment_mode': 'credit card', 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:29:49,212 - Thread-27 (process_request_thread) - MainProcess - ERROR - Payment 24 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «payments_pkey»
+DETAIL:  Ya existe la llave (id_payment)=(24).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 24, 'id_product': 4, 'amount': 15.99, 'payment_mode': 'credit card', 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:29:49,215 - Thread-27 (process_request_thread) - MainProcess - ERROR - Payment 24 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «payments_pkey»
+DETAIL:  Ya existe la llave (id_payment)=(24).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 24, 'id_product': 4, 'amount': 15.99, 'payment_mode': 'credit card', 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:32:47,323 - Thread-28 (process_request_thread) - MainProcess - INFO - Payment 25 added successfully
+2024-12-03 21:33:18,601 - Thread-29 (process_request_thread) - MainProcess - INFO - Payment 26 added successfully
+2024-12-03 21:36:20,280 - Thread-30 (process_request_thread) - MainProcess - INFO - Payment 27 added successfully
+2024-12-03 21:36:34,942 - Thread-31 (process_request_thread) - MainProcess - ERROR - Payment 27 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «payments_pkey»
+DETAIL:  Ya existe la llave (id_payment)=(27).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 27, 'id_product': 4, 'amount': 15.99, 'payment_mode': 'credit card', 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:36:34,947 - Thread-31 (process_request_thread) - MainProcess - ERROR - Payment 27 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «payments_pkey»
+DETAIL:  Ya existe la llave (id_payment)=(27).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 27, 'id_product': 4, 'amount': 15.99, 'payment_mode': 'credit card', 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:40:43,685 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 28 added successfully
+2024-12-03 21:40:55,435 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 28 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (28, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 28, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:40:55,450 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 28 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (28, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 28, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:42:38,180 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 29 added successfully
+2024-12-03 21:42:50,296 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 29 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (29, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 29, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:42:50,312 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 29 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (29, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 29, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:47:23,100 - Thread-4 (process_request_thread) - MainProcess - INFO - Payment 30 added successfully
+2024-12-03 21:48:28,315 - Thread-5 (process_request_thread) - MainProcess - ERROR - Payment 30 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (30, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 30, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:48:28,329 - Thread-5 (process_request_thread) - MainProcess - ERROR - Payment 30 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (30, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 30, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:58:40,725 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 31 added successfully
+2024-12-03 21:58:54,129 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 31 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (31, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 31, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:58:54,135 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 31 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (31, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 31, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:03:09,907 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 32 added successfully
+2024-12-03 22:03:34,868 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 32 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (32, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 32, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:03:34,873 - Thread-3 (process_request_thread) - MainProcess - ERROR - Payment 32 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (32, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 32, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:31:18,817 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 33 added successfully
+2024-12-03 22:32:33,467 - Thread-3 (process_request_thread) - MainProcess - INFO - Payment 34 added successfully
+2024-12-03 22:46:25,747 - Thread-4 (process_request_thread) - MainProcess - INFO - Payment 35 added successfully
+2024-12-03 22:46:39,922 - Thread-5 (process_request_thread) - MainProcess - ERROR - Payment 35 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (35, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 35, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:46:39,937 - Thread-5 (process_request_thread) - MainProcess - ERROR - Payment 35 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (35, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 35, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:48:56,287 - Thread-6 (process_request_thread) - MainProcess - INFO - Payment 36 added successfully
+2024-12-03 22:49:11,630 - Thread-7 (process_request_thread) - MainProcess - ERROR - Payment 36 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (36, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 36, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:49:11,639 - Thread-7 (process_request_thread) - MainProcess - ERROR - Payment 36 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (36, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 36, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:49:51,691 - Thread-8 (process_request_thread) - MainProcess - INFO - Payment 37 added successfully
+2024-12-03 22:54:39,554 - Thread-9 (process_request_thread) - MainProcess - INFO - Payment 38 added successfully
+2024-12-03 22:54:55,150 - Thread-10 (process_request_thread) - MainProcess - ERROR - Payment 38 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (38, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 38, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:54:55,150 - Thread-10 (process_request_thread) - MainProcess - ERROR - Payment 38 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (38, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 38, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:56:31,765 - Thread-11 (process_request_thread) - MainProcess - ERROR - Payment 38 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (38, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 38, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 22:56:31,765 - Thread-11 (process_request_thread) - MainProcess - ERROR - Payment 38 cannot save, error (psycopg2.errors.NotNullViolation) el valor nulo en la columna «id_product» de la relación «payments» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (38, null, null, null, t).
+
+[SQL: INSERT INTO ms_payments.payments (id_payment, id_product, amount, payment_mode, active) VALUES (%(id_payment)s, %(id_product)s, %(amount)s, %(payment_mode)s, %(active)s)]
+[parameters: {'id_payment': 38, 'id_product': None, 'amount': None, 'payment_mode': None, 'active': True}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 23:01:17,722 - Thread-2 (process_request_thread) - MainProcess - INFO - Payment 39 added successfully
+2024-12-03 23:01:30,102 - Thread-3 (process_request_thread) - MainProcess - INFO - Payment 40 added successfully
+2024-12-03 23:01:44,625 - Thread-4 (process_request_thread) - MainProcess - INFO - Payment 41 added successfully
+2024-12-04 12:00:55,954 - Thread-5 (process_request_thread) - MainProcess - INFO - Payment 42 added successfully

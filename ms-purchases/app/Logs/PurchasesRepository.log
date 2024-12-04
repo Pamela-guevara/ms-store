@@ -1,0 +1,263 @@
+2024-12-03 16:56:37,084 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 1 added successfully
+2024-12-03 16:59:52,878 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase 2 added successfully
+2024-12-03 16:59:57,926 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase 3 added successfully
+2024-12-03 17:00:02,987 - Thread-5 (process_request_thread) - MainProcess - INFO - Purchase 4 added successfully
+2024-12-03 17:03:00,401 - Thread-6 (process_request_thread) - MainProcess - INFO - Purchase 5 added successfully
+2024-12-03 17:03:05,453 - Thread-7 (process_request_thread) - MainProcess - INFO - Purchase 6 added successfully
+2024-12-03 17:03:10,496 - Thread-8 (process_request_thread) - MainProcess - INFO - Purchase 7 added successfully
+2024-12-03 17:04:38,296 - Thread-9 (process_request_thread) - MainProcess - INFO - Purchase 8 added successfully
+2024-12-03 17:04:43,383 - Thread-10 (process_request_thread) - MainProcess - INFO - Purchase 9 added successfully
+2024-12-03 17:04:48,430 - Thread-11 (process_request_thread) - MainProcess - INFO - Purchase 10 added successfully
+2024-12-03 17:06:48,703 - Thread-12 (process_request_thread) - MainProcess - INFO - Purchase 11 added successfully
+2024-12-03 17:06:53,763 - Thread-13 (process_request_thread) - MainProcess - INFO - Purchase 12 added successfully
+2024-12-03 17:06:58,802 - Thread-14 (process_request_thread) - MainProcess - INFO - Purchase 13 added successfully
+2024-12-03 17:08:41,586 - Thread-15 (process_request_thread) - MainProcess - INFO - Purchase 14 added successfully
+2024-12-03 17:09:43,608 - Thread-16 (process_request_thread) - MainProcess - INFO - Purchase 15 added successfully
+2024-12-03 17:09:48,671 - Thread-17 (process_request_thread) - MainProcess - INFO - Purchase 16 added successfully
+2024-12-03 17:09:53,711 - Thread-18 (process_request_thread) - MainProcess - INFO - Purchase 17 added successfully
+2024-12-03 17:10:22,715 - Thread-19 (process_request_thread) - MainProcess - INFO - Purchase 18 added successfully
+2024-12-03 17:11:58,063 - Thread-20 (process_request_thread) - MainProcess - INFO - Purchase 19 added successfully
+2024-12-03 17:12:03,092 - Thread-21 (process_request_thread) - MainProcess - INFO - Purchase 20 added successfully
+2024-12-03 17:12:08,125 - Thread-22 (process_request_thread) - MainProcess - INFO - Purchase 21 added successfully
+2024-12-03 17:13:16,429 - Thread-23 (process_request_thread) - MainProcess - INFO - Purchase 22 added successfully
+2024-12-03 17:13:21,484 - Thread-24 (process_request_thread) - MainProcess - INFO - Purchase 23 added successfully
+2024-12-03 17:13:26,542 - Thread-25 (process_request_thread) - MainProcess - INFO - Purchase 24 added successfully
+2024-12-03 17:16:49,524 - Thread-26 (process_request_thread) - MainProcess - INFO - Purchase 25 added successfully
+2024-12-03 17:20:57,117 - Thread-27 (process_request_thread) - MainProcess - INFO - Purchase 26 added successfully
+2024-12-03 17:24:02,721 - Thread-28 (process_request_thread) - MainProcess - INFO - Purchase 27 added successfully
+2024-12-03 17:27:20,157 - Thread-29 (process_request_thread) - MainProcess - INFO - Purchase 28 added successfully
+2024-12-03 17:30:22,853 - Thread-30 (process_request_thread) - MainProcess - INFO - Purchase 29 added successfully
+2024-12-03 17:45:57,354 - Thread-31 (process_request_thread) - MainProcess - INFO - Purchase 30 added successfully
+2024-12-03 17:49:56,656 - Thread-32 (process_request_thread) - MainProcess - INFO - Purchase 31 added successfully
+2024-12-03 17:52:00,170 - Thread-33 (process_request_thread) - MainProcess - INFO - Purchase 32 added successfully
+2024-12-03 17:54:03,794 - Thread-34 (process_request_thread) - MainProcess - INFO - Purchase 33 added successfully
+2024-12-03 17:58:24,461 - Thread-37 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 17:58:31,549 - Thread-39 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 17:58:38,632 - Thread-41 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 17:59:36,213 - Thread-42 (process_request_thread) - MainProcess - INFO - Purchase 34 added successfully
+2024-12-03 18:04:59,503 - Thread-43 (process_request_thread) - MainProcess - INFO - Purchase 35 added successfully
+2024-12-03 18:07:32,368 - Thread-44 (process_request_thread) - MainProcess - INFO - Purchase 36 added successfully
+2024-12-03 18:15:28,744 - Thread-45 (process_request_thread) - MainProcess - INFO - Purchase 37 added successfully
+2024-12-03 18:27:27,129 - Thread-46 (process_request_thread) - MainProcess - INFO - Purchase 38 added successfully
+2024-12-03 18:31:11,174 - Thread-47 (process_request_thread) - MainProcess - INFO - Purchase 39 added successfully
+2024-12-03 18:40:11,550 - Thread-48 (process_request_thread) - MainProcess - INFO - Purchase 40 added successfully
+2024-12-03 18:43:06,175 - Thread-49 (process_request_thread) - MainProcess - INFO - Purchase 41 added successfully
+2024-12-03 18:43:11,268 - Thread-50 (process_request_thread) - MainProcess - ERROR - Purchase 41 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(41).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 41, 'id_product': 4, 'purchase_date': '2024-12-03T18:43:00.427439', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 18:43:11,276 - Thread-50 (process_request_thread) - MainProcess - ERROR - Purchase 41 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(41).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 41, 'id_product': 4, 'purchase_date': '2024-12-03T18:43:00.427439', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 18:52:42,808 - Thread-51 (process_request_thread) - MainProcess - INFO - Purchase 42 added successfully
+2024-12-03 18:52:47,865 - Thread-52 (process_request_thread) - MainProcess - ERROR - Purchase 42 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(42).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 42, 'id_product': 4, 'purchase_date': '2024-12-03T18:52:11.600200', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 18:52:47,877 - Thread-52 (process_request_thread) - MainProcess - ERROR - Purchase 42 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(42).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 42, 'id_product': 4, 'purchase_date': '2024-12-03T18:52:11.600200', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 18:59:04,452 - Thread-53 (process_request_thread) - MainProcess - INFO - Purchase 1 added successfully
+2024-12-03 19:01:14,049 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 2 added successfully
+2024-12-03 19:01:19,092 - Thread-3 (process_request_thread) - MainProcess - ERROR - Purchase 2 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(2).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 2, 'id_product': 4, 'purchase_date': '2024-12-03T19:01:06.667780', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 19:01:19,101 - Thread-3 (process_request_thread) - MainProcess - ERROR - Purchase 2 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(2).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 2, 'id_product': 4, 'purchase_date': '2024-12-03T19:01:06.667780', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 19:01:46,873 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase 3 added successfully
+2024-12-03 19:01:51,943 - Thread-5 (process_request_thread) - MainProcess - ERROR - Purchase 3 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(3).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 3, 'id_product': 4, 'purchase_date': '2024-12-03T19:01:36.751295', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 19:01:51,950 - Thread-5 (process_request_thread) - MainProcess - ERROR - Purchase 3 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(3).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 3, 'id_product': 4, 'purchase_date': '2024-12-03T19:01:36.751295', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 19:03:41,038 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 4 added successfully
+2024-12-03 19:12:01,990 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase 5 added successfully
+2024-12-03 19:12:18,094 - Thread-5 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:23:07,833 - Thread-6 (process_request_thread) - MainProcess - INFO - Purchase 6 added successfully
+2024-12-03 19:23:23,937 - Thread-8 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:25:15,907 - Thread-9 (process_request_thread) - MainProcess - INFO - Purchase 7 added successfully
+2024-12-03 19:25:20,009 - Thread-11 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:33:26,715 - Thread-12 (process_request_thread) - MainProcess - INFO - Purchase 8 added successfully
+2024-12-03 19:33:30,821 - Thread-14 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:34:35,429 - Thread-15 (process_request_thread) - MainProcess - INFO - Purchase 9 added successfully
+2024-12-03 19:34:41,800 - Thread-17 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:37:13,692 - Thread-18 (process_request_thread) - MainProcess - INFO - Purchase 10 added successfully
+2024-12-03 19:37:32,024 - Thread-20 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:42:36,560 - Thread-21 (process_request_thread) - MainProcess - INFO - Purchase 11 added successfully
+2024-12-03 19:42:45,194 - Thread-23 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:44:55,244 - Thread-24 (process_request_thread) - MainProcess - INFO - Purchase 12 added successfully
+2024-12-03 19:45:03,503 - Thread-26 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:47:51,226 - Thread-27 (process_request_thread) - MainProcess - INFO - Purchase 13 added successfully
+2024-12-03 19:47:59,430 - Thread-29 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:49:41,984 - Thread-30 (process_request_thread) - MainProcess - INFO - Purchase 14 added successfully
+2024-12-03 19:49:50,224 - Thread-32 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:51:44,181 - Thread-33 (process_request_thread) - MainProcess - INFO - Purchase 15 added successfully
+2024-12-03 19:51:52,385 - Thread-35 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:53:17,491 - Thread-36 (process_request_thread) - MainProcess - INFO - Purchase 16 added successfully
+2024-12-03 19:53:25,705 - Thread-38 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:56:30,180 - Thread-39 (process_request_thread) - MainProcess - INFO - Purchase 17 added successfully
+2024-12-03 19:56:38,407 - Thread-41 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:57:13,541 - Thread-42 (process_request_thread) - MainProcess - INFO - Purchase 18 added successfully
+2024-12-03 19:57:21,772 - Thread-44 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 19:59:22,531 - Thread-45 (process_request_thread) - MainProcess - INFO - Purchase 19 added successfully
+2024-12-03 19:59:32,856 - Thread-47 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:00:49,694 - Thread-48 (process_request_thread) - MainProcess - INFO - Purchase 20 added successfully
+2024-12-03 20:00:59,943 - Thread-50 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:06:43,553 - Thread-51 (process_request_thread) - MainProcess - INFO - Purchase 21 added successfully
+2024-12-03 20:06:53,811 - Thread-53 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:10:18,617 - Thread-54 (process_request_thread) - MainProcess - INFO - Purchase 22 added successfully
+2024-12-03 20:10:29,001 - Thread-56 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:14:50,938 - Thread-57 (process_request_thread) - MainProcess - INFO - Purchase 23 added successfully
+2024-12-03 20:14:59,122 - Thread-59 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:16:45,499 - Thread-60 (process_request_thread) - MainProcess - INFO - Purchase 24 added successfully
+2024-12-03 20:16:55,786 - Thread-62 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:23:26,643 - Thread-63 (process_request_thread) - MainProcess - INFO - Purchase 25 added successfully
+2024-12-03 20:29:19,618 - Thread-64 (process_request_thread) - MainProcess - INFO - Purchase 26 added successfully
+2024-12-03 20:30:41,851 - Thread-65 (process_request_thread) - MainProcess - INFO - Purchase 27 added successfully
+2024-12-03 20:30:55,194 - Thread-66 (process_request_thread) - MainProcess - ERROR - Purchase 27 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(27).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 27, 'id_product': 1, 'purchase_date': '2024-12-03T20:30:36.106285', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:30:55,194 - Thread-66 (process_request_thread) - MainProcess - ERROR - Purchase 27 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(27).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 27, 'id_product': 1, 'purchase_date': '2024-12-03T20:30:36.106285', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:33:35,535 - Thread-67 (process_request_thread) - MainProcess - ERROR - Purchase 27 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(27).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 27, 'id_product': 1, 'purchase_date': '2024-12-03T20:30:36.106285', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:33:35,538 - Thread-67 (process_request_thread) - MainProcess - ERROR - Purchase 27 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(27).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 27, 'id_product': 1, 'purchase_date': '2024-12-03T20:30:36.106285', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:35:50,934 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 28 added successfully
+2024-12-03 20:36:50,503 - Thread-3 (process_request_thread) - MainProcess - ERROR - Purchase 28 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(28).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 28, 'id_product': 2, 'purchase_date': '2024-12-03T20:34:10.168726', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:36:50,511 - Thread-3 (process_request_thread) - MainProcess - ERROR - Purchase 28 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(28).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 28, 'id_product': 2, 'purchase_date': '2024-12-03T20:34:10.168726', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:48:06,032 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase 29 added successfully
+2024-12-03 20:48:14,297 - Thread-6 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 20:51:16,271 - Thread-7 (process_request_thread) - MainProcess - ERROR - Purchase 29 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(29).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 29, 'id_product': 1, 'purchase_date': '2024-12-03T20:47:53.837689', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 20:51:16,271 - Thread-7 (process_request_thread) - MainProcess - ERROR - Purchase 29 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(29).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 29, 'id_product': 1, 'purchase_date': '2024-12-03T20:47:53.837689', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:05:13,459 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 30 added successfully
+2024-12-03 21:05:24,732 - Thread-3 (process_request_thread) - MainProcess - ERROR - Purchase 30 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(30).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 30, 'id_product': 1, 'purchase_date': '2024-12-03T21:00:05.498504', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:05:24,733 - Thread-3 (process_request_thread) - MainProcess - ERROR - Purchase 30 cannot save, error (psycopg2.errors.UniqueViolation) llave duplicada viola restricción de unicidad «purchases_pkey»
+DETAIL:  Ya existe la llave (id_purchase)=(30).
+
+[SQL: INSERT INTO ms_purchases.purchases (id_purchase, id_product, purchase_date, shipping_address, active, deleted) VALUES (%(id_purchase)s, %(id_product)s, %(purchase_date)s, %(shipping_address)s, %(active)s, %(deleted)s)]
+[parameters: {'id_purchase': 30, 'id_product': 1, 'purchase_date': '2024-12-03T21:00:05.498504', 'shipping_address': 'Av siempreviva 1234', 'active': True, 'deleted': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-03 21:12:25,442 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 31 added successfully
+2024-12-03 21:12:46,127 - Thread-5 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:14:30,275 - Thread-4 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:17:24,059 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 32 added successfully
+2024-12-03 21:17:39,955 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase 33 added successfully
+2024-12-03 21:21:11,029 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase 34 added successfully
+2024-12-03 21:21:31,253 - Thread-5 (process_request_thread) - MainProcess - INFO - Purchase 35 added successfully
+2024-12-03 21:21:35,323 - Thread-7 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:25:45,657 - Thread-8 (process_request_thread) - MainProcess - INFO - Purchase 36 added successfully
+2024-12-03 21:26:13,192 - Thread-9 (process_request_thread) - MainProcess - INFO - Purchase 37 added successfully
+2024-12-03 21:26:19,410 - Thread-11 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:29:47,163 - Thread-12 (process_request_thread) - MainProcess - INFO - Purchase 38 added successfully
+2024-12-03 21:29:53,290 - Thread-14 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:32:45,257 - Thread-15 (process_request_thread) - MainProcess - INFO - Purchase 39 added successfully
+2024-12-03 21:32:51,425 - Thread-17 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:33:16,552 - Thread-18 (process_request_thread) - MainProcess - INFO - Purchase 40 added successfully
+2024-12-03 21:33:22,674 - Thread-20 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:36:18,214 - Thread-21 (process_request_thread) - MainProcess - INFO - Purchase 41 added successfully
+2024-12-03 21:36:32,897 - Thread-22 (process_request_thread) - MainProcess - INFO - Purchase 42 added successfully
+2024-12-03 21:36:39,185 - Thread-24 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:40:41,394 - Thread-25 (process_request_thread) - MainProcess - INFO - Purchase 43 added successfully
+2024-12-03 21:40:53,397 - Thread-26 (process_request_thread) - MainProcess - INFO - Purchase 44 added successfully
+2024-12-03 21:40:59,636 - Thread-28 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:42:35,963 - Thread-29 (process_request_thread) - MainProcess - INFO - Purchase 45 added successfully
+2024-12-03 21:42:48,264 - Thread-30 (process_request_thread) - MainProcess - INFO - Purchase 46 added successfully
+2024-12-03 21:42:54,531 - Thread-32 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:47:21,033 - Thread-33 (process_request_thread) - MainProcess - INFO - Purchase 47 added successfully
+2024-12-03 21:48:26,248 - Thread-34 (process_request_thread) - MainProcess - INFO - Purchase 48 added successfully
+2024-12-03 21:48:32,576 - Thread-36 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 21:58:38,487 - Thread-37 (process_request_thread) - MainProcess - INFO - Purchase 49 added successfully
+2024-12-03 21:58:52,097 - Thread-38 (process_request_thread) - MainProcess - INFO - Purchase 50 added successfully
+2024-12-03 21:58:58,324 - Thread-40 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:03:07,723 - Thread-41 (process_request_thread) - MainProcess - INFO - Purchase 51 added successfully
+2024-12-03 22:03:32,806 - Thread-42 (process_request_thread) - MainProcess - INFO - Purchase 52 added successfully
+2024-12-03 22:03:39,176 - Thread-44 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:31:16,608 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 53 added successfully
+2024-12-03 22:32:31,395 - Thread-3 (process_request_thread) - MainProcess - INFO - Purchase 54 added successfully
+2024-12-03 22:46:23,696 - Thread-4 (process_request_thread) - MainProcess - INFO - Purchase 55 added successfully
+2024-12-03 22:46:37,888 - Thread-5 (process_request_thread) - MainProcess - INFO - Purchase 56 added successfully
+2024-12-03 22:46:44,085 - Thread-7 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:48:54,204 - Thread-8 (process_request_thread) - MainProcess - INFO - Purchase 57 added successfully
+2024-12-03 22:49:09,579 - Thread-9 (process_request_thread) - MainProcess - INFO - Purchase 58 added successfully
+2024-12-03 22:49:15,763 - Thread-11 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:49:49,619 - Thread-12 (process_request_thread) - MainProcess - INFO - Purchase 59 added successfully
+2024-12-03 22:50:01,221 - Thread-13 (process_request_thread) - MainProcess - INFO - Purchase 60 added successfully
+2024-12-03 22:50:05,319 - Thread-15 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:52:18,773 - Thread-16 (process_request_thread) - MainProcess - INFO - Purchase 61 added successfully
+2024-12-03 22:52:22,871 - Thread-18 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:53:20,457 - Thread-19 (process_request_thread) - MainProcess - INFO - Purchase 62 added successfully
+2024-12-03 22:53:24,519 - Thread-21 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:54:37,498 - Thread-22 (process_request_thread) - MainProcess - INFO - Purchase 63 added successfully
+2024-12-03 22:54:53,097 - Thread-23 (process_request_thread) - MainProcess - INFO - Purchase 64 added successfully
+2024-12-03 22:54:59,325 - Thread-25 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 22:56:29,707 - Thread-26 (process_request_thread) - MainProcess - INFO - Purchase 65 added successfully
+2024-12-03 22:56:35,953 - Thread-28 (process_request_thread) - MainProcess - INFO - Last purchase found successfully
+2024-12-03 23:01:15,496 - Thread-29 (process_request_thread) - MainProcess - INFO - Purchase 66 added successfully
+2024-12-03 23:01:28,030 - Thread-30 (process_request_thread) - MainProcess - INFO - Purchase 67 added successfully
+2024-12-03 23:01:42,574 - Thread-31 (process_request_thread) - MainProcess - INFO - Purchase 68 added successfully
+2024-12-04 12:00:53,899 - Thread-2 (process_request_thread) - MainProcess - INFO - Purchase 69 added successfully
